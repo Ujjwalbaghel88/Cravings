@@ -1,0 +1,784 @@
+:root {
+  --color-primary: #c2410c;
+  --color-primary-content: #ffffff;
+  --color-secondary: #6b7280;
+  --color-neutral: #3f3f46;
+  --color-neutral-content: #f4f4f5;
+  --color-base-100: #fff8f1;
+  --color-base-200: #f5ede5;
+  --color-base-300: #e7d9c9;
+  --color-base-content: #2d1b10;
+  --color-error: #ef4444;
+  --color-success: #22c55e;
+  --color-pink: #d9468f;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+}
+
+#header {
+  /* height: 64px; */
+  background-color: var(--color-primary);
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  img {
+    width: 100px;
+    height: auto;
+  }
+
+  
+
+  #login:hover {
+    border: 1px solid var(--color-primary-content);
+  }
+
+  #register {
+    color: var(--color-primary);
+    background-color: var(--color-primary-content);
+  }
+
+  #register:hover {
+    background-color: transparent;
+    border: 1px solid var(--color-primary-content);
+    color: var(--color-primary-content);
+  }
+}
+
+.herosection {
+  position: relative;
+
+  img {
+    height: 620px;
+  }
+}
+
+.dull-img {
+  filter: brightness(60%);
+}
+
+.about-dull-img {
+  filter: brightness(45%);
+}
+
+.herocontent {
+  position: absolute;
+  top: 25%;
+
+  #signUp {
+    background-color: var(--color-primary);
+    color: var(--color-primary-content);
+  }
+
+  #orderNow {
+    background-color: var(--color-primary-content);
+    color: var(--color-base-content);
+  }
+
+  .search {
+    color: var(--color-base-content);
+    background-color: var(--color-primary-content);
+    width: 60%;
+  }
+}
+
+/* .menuSearch::placeholder {
+  color: var(--color-primary) !important;
+  opacity: 0.5;
+} */
+
+/* your Favourite food  */
+
+#buttonHome {
+  #signup {
+    border: none;
+    background-color: var(--color-primary);
+  }
+  #orderNow {
+    border: none;
+    background-color: var(--color-base-100);
+  }
+}
+
+/* searchbar */
+#text::placeholder {
+  color: rgba(248, 113, 113, 0.7);
+}
+
+/* Featured Restaurants */
+
+#restaurant-card {
+  background: linear-gradient(
+    180deg,
+    var(--color-primary),
+    var(--color-primary-content)
+  );
+}
+
+#restaurant-card,
+.restaurant-card {
+  .restaurant-div {
+    margin: 0 13%;
+  }
+
+  #restaurant-div {
+    margin: 0 2%;
+  }
+
+  .card-heading {
+    color: var(--color-primary-content);
+  }
+
+  .restaurant-available {
+    color: var(--color-base-200);
+    opacity: 0.8;
+  }
+
+  p {
+    font-size: 14px;
+    color: var(--color-base-content);
+  }
+
+  hr {
+    opacity: 0.1;
+  }
+
+  .star {
+    top: 5%;
+    right: 3%;
+    background-color: var(--color-primary);
+    color: var(--color-primary-content);
+  }
+
+  .card-outer {
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+  }
+
+  .dishes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+
+  @media (max-width: 1024px) {
+    .restaurant-div {
+      margin: 0 7%;
+    }
+
+    .card-outer {
+      margin: 0;
+      display: grid;
+      gap: 35px;
+      grid-template-columns: auto auto;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .restaurant-div {
+      margin: 0;
+    }
+
+    .card-outer {
+      margin: 0;
+      display: grid;
+      gap: 20px;
+      grid-template-columns: auto auto;
+    }
+  }
+
+  @media (max-width: 420px) {
+    .card-outer {
+      margin: 0 3%;
+      display: grid;
+      grid-template-columns: auto;
+    }
+  }
+
+  .card {
+    background-color: var(--color-base-100);
+    transition: transform 0.1s linear;
+
+    img {
+      height: 180px;
+      object-fit: cover;
+    }
+  }
+
+  #all-cards:hover {
+    transform: scale(1.05);
+  }
+
+  #explore {
+    background-color: var(--color-primary);
+    color: var(--color-primary-content);
+  }
+
+  .dishes {
+    span {
+      background-color: var(--color-base-300);
+      color: var(--color-neutral);
+      font-size: 12px;
+    }
+  }
+}
+
+/* Craving by the Numbers */
+
+.box-outer {
+  display: flex;
+  justify-content: space-around;
+  h4 {
+  
+    font-weight: bolder;
+    /* font-size: xx-large; */
+    color: var(--color-primary);
+  }
+}
+
+
+#CravingNumber{
+  background:var(--color-base-200);
+}
+/* Details Section */
+.details {
+  background-color: var(--color-base-100);
+
+  .trust-content {
+    color: var(--color-base-content);
+  }
+
+  .records {
+    .record-cards,
+    .about-record-cards {
+      background-color: var(--color-primary-content);
+
+      .trust-description {
+        color: var(--color-base-content);
+      }
+
+      .trust-customer {
+        color: var(--color-pink);
+      }
+
+      .trust-delivery {
+        color: var(--color-primary);
+      }
+    }
+  }
+}
+
+.record-cards:hover,
+.rating-card:hover {
+  transform: scale(1.01);
+}
+
+/* Customer Review Section */
+.feedback {
+  color: var(--color-base-content);
+}
+
+.review-name-logo {
+  background-color: var(--color-primary);
+  color: var(--color-primary-content);
+}
+
+.review-name-logo1 {
+  background-color: var(--color-pink);
+  color: var(--color-primary-content);
+}
+
+.rating-card,
+#order-now-card,
+.our-story,
+.privacy-policy {
+  background-color: var(--color-base-100);
+}
+
+/* Partner */
+
+
+#outerdiv{
+  background: var(--color-primary);
+  h4{
+    font-weight: bolder;
+    font-size: xx-large;
+  }
+ #outerdiv,p{
+  color:var(--color-base-300);
+ }
+
+  button,btn{
+  color:var(--color-primary);
+  background:var(--color-base-200);
+  font-weight: bold;
+  font-size:larger;
+ }
+ button:hover{
+  color: var(--color-pink);
+ }
+  
+}
+
+#partner{
+  /* color: var(--color-primary); */
+  background: var(--color-primary);
+  .partner-div{
+    
+
+  color: var(--color-base-100);
+  }
+
+
+
+}
+/* Footer section */
+.footer-section {
+  background-color: var(--color-neutral);
+
+  .footer-div {
+    color: var(--color-primary-content);
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+.footer-outer,
+.footer-division,
+.copy-right {
+  margin: 0 9%;
+}
+
+.footer-outer {
+  grid-template-columns: auto auto auto auto auto;
+}
+
+@media (max-width: 768px) {
+  .footer-outer {
+    grid-template-columns: auto;
+    gap: 30px;
+  }
+}
+
+.footer-logo img {
+  height: 125px;
+  width: 125px;
+}
+
+footer {
+  a {
+    text-decoration: none;
+    color: var(--color-base-100);
+    font-size: 14px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  a:hover {
+    color: var(--color-primary);
+  }
+}
+
+.copy-right {
+  color: var(--color-base-100);
+}
+
+/* Login page */
+
+.login-bg {
+  img {
+    height: 100vh;
+    width: 100%;
+  }
+
+  
+}
+
+.help-bg {
+  img {
+    height: 92vh;
+    width: 100%;
+  }
+}
+
+.about-login-bg {
+  img {
+    height: 60vh;
+    width: 100%;
+  }
+}
+
+.privacy-bg {
+  img {
+    height: 45vh;
+    width: 100%;
+  }
+}
+
+.login-div {
+  left: 8%;
+  top: 13%;
+}
+
+.feedback-div{
+  right: 8%;
+  margin-top:20px;
+  /* top: 25%; */
+}
+.help-center {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 60%;
+  background: rgba(0, 0, 0, 0.9);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 12px;
+
+  h2{
+    color: var(--color-primary);
+    font-weight:bold;
+  }
+}
+
+
+#mainouterdiv{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+}
+
+#divclass{
+  display: grid;
+  width: 90%;
+ #accordion{
+  width: 100%;
+  padding: 3px 28px;
+  
+   .accordion-header{
+    background-color: var(--color-base-content);
+    color: var(--color-secondary);
+  }
+ }
+  
+
+  h2{
+    font-weight: bolder;
+    font-size: larger;
+    
+    
+  }
+  
+}
+#SupportTicket{
+ 
+  width: 100%;
+ 
+
+  .support{
+     display: grid;
+      gap: 3px;
+
+
+     
+  h2{
+    font-weight: bolder;
+    font-size: larger;
+    
+    
+  }
+  
+  input,textarea,select{
+    padding: 10px 20px;
+    border: 3px solid  var(--color-error);
+   /* border-color: var(--color-error); */
+    border-radius: 8px;
+    width: 70%;
+    
+  }
+
+  button{
+    color: var(--color-base-100);
+    background: var(--color-primary);
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    height: 150%;
+  }
+  }
+  
+  
+
+
+
+}
+.login-div,
+
+.register-div,
+.feedback-div,
+.contact-div {
+  padding: 23px 39px !important;
+  width: 30%;
+  background-color: var(--color-neutral-content);
+
+  a {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-size: 13px;
+  }
+
+  hr {
+    width: 32%;
+  }
+
+  p,
+  .line,
+  i,
+  .remember,
+  .terms {
+    color: var(--color-secondary);
+  }
+
+  button {
+    background-color: var(--color-primary);
+  }
+
+  h2,
+  #anchor-underline {
+    color: var(--color-primary);
+  }
+
+  #anchor-underline {
+    font-size: 14px;
+  }
+}
+
+.input-field {
+  height: 37px;
+  border: 0.5px solid var(--color-base-300) !important;
+  border-radius: 5px;
+}
+
+.input-field::placeholder,
+.input-field input::placeholder,
+.updated {
+  font-size: 14px !important;
+}
+
+/* Register */
+.register-div,
+.feedback-div {
+  right: 8% !important;
+  top: 2%;
+}
+
+.contact-div {
+  left: 8%;
+  top: 9%;
+}
+
+#anchor-underline:hover {
+  text-decoration: underline;
+}
+
+.terms {
+  font-size: 14px;
+}
+
+#register-button,
+#login-button {
+  font-size: 16px;
+}
+
+.input-field:focus,
+.textarea:focus {
+  border: 3px solid var(--color-primary) !important;
+  outline: none;
+}
+
+/* Order now */
+#order-now {
+  background-color: var(--color-base-200);
+}
+
+.order-now-search-div {
+  border: 1px solid var(--color-primary);
+  width: 85%;
+  margin-left: 7%;
+}
+
+#order-now-all-card:hover {
+  box-shadow: 0 4px 6px -3px gray;
+}
+
+/* feedback */
+.feedback-div select {
+  font-size: 14px;
+  color: var(--color-secondary);
+}
+
+.rating-star i:hover {
+  color: gold;
+}
+
+.textarea {
+  height: 100px !important;
+}
+
+/* ABOUT */
+.about-trust-content {
+  color: var(--color-neutral);
+}
+
+#about-details {
+  background-color: var(--color-base-200) !important;
+  box-shadow: 0 0 2px -5px gray !important;
+}
+
+#about-get-started {
+  background-color: var(--color-base-200);
+  color: var(--color-primary);
+}
+
+#about-contact {
+  border: 2px solid var(--color-primary-content);
+}
+
+#about-get-started:hover {
+  opacity: 0.9;
+}
+
+.core-values {
+  color: var(--color-primary);
+}
+
+.about-trust-description,
+.rating-des {
+  font-size: 14px;
+}
+
+/* Meet the team */
+.team-profile {
+  background-color: var(--color-primary);
+  height: 70px;
+  width: 70px;
+}
+
+/* Our-Story */
+.our-facility {
+  background-color: var(--color-primary-content);
+  border: 0.5px solid var(--color-base-300) !important;
+
+  i {
+    color: var(--color-primary);
+  }
+}
+
+.our-story-description {
+  font-size: 12px;
+}
+
+/* ABOUT HERO */
+.about-herocontent {
+  top: 26%;
+  left: 25%;
+}
+
+.privacy-herocontent {
+  top: 16%;
+  left: 25%;
+}
+
+.about-herocontent,
+.privacy-herocontent {
+  img {
+    height: 80px;
+    width: 80px;
+  }
+
+  h1 {
+    span {
+      color: var(--color-primary);
+    }
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
+
+.privacy-herocontent .privacy-value {
+  font-size: 16px !important;
+}
+
+.about-rating {
+  background-color: var(--color-neutral);
+}
+
+/* Help center */
+.help-center-bg {
+  top: 25%;
+  left: 25%;
+  background: rgba(0, 0, 0, 0.4);
+}
+/* Privacy */
+
+.privacy-para {
+  font-size: 14px;
+  color: var(--color-neutral-content);
+}
+li {
+  background-color: var(--color-primary-content);
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.faq-box {
+  width: 60%;
+}
+ul li::marker {
+  color: var(--color-primary);
+}
+.privacy-input-field {
+  border: 0.5px solid var(--color-base-300) !important;
+}
+
+/* for home page section id 33 */
+/* HERO OVERLAY FIX */
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  z-index: 10; /* MOST IMPORTANT */
+}
+
+/* Carousel image fix */
+.hero-img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+
+.custom-line {
+
+  color:var(--color-primary);   /* line color */
+  opacity:1;   /* important: full dark */
+  /* width: 5px;/ */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
