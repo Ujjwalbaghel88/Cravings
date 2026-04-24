@@ -1,0 +1,297 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cravings</title>
+     <link rel="icon" type="image/x-icon" href="./images/circleLogo-DpCri5UD.png">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="order-now">
+    
+
+    <header>
+      <div
+        class=" d-flex justify-content-between align-items-center "
+        id="header"
+      >
+        <div class="headerLogo ">
+          <a href="./index.html">
+            <img src="../CravingsWebsite/images/image1.png" class="ms-3  flex-shrink-0" alt="Logo" />
+          </a>
+        </div>
+        <div class="loginRegister">
+          <a href="./login.html" class="login btn text-white" id="login"
+            >Login</a
+          >
+          <a href="./register.html" class="register btn" id="register"
+            >Register</a
+          >
+        </div>
+      </div>
+    </header>
+    <main>
+      <div
+        class="card py-4 px-5 mt-2 ms-2 me-2 shadow-sm rounded-4 border-0"
+        id="order-now-card"
+      >
+        <div
+          class="d-flex order-now-search-div align-items-center ps-3 py-1 rounded-3"
+        >
+          <i class="bi bi-search text-black"></i>
+          <input
+            type="search"
+            class="menuSearch form-control bg-transparent border-0 shadow-none ps-3 opacity-50 my-1"
+            placeholder="Search restaurants or cuisines.."
+          />
+        </div>
+      </div>
+
+      <!-- Restaurants -->
+      <section
+        class="restaurant-card py-5 md:py-5 d-flex justify-content-center"
+        id="order-now-bg"
+      >
+        <div class="container px-5" id="restaurant-div">
+          <h3 class="card-heading fw-bolder text-black">All Restaurants</h3>
+          <p class="restaurant-available text-black">6 restaurants available</p>
+          <div class="card-outer d-grid mt-4">
+            <!-- Card 1 -->
+            <div class="card border-0 rounded-3" id="order-now-all-card">
+              <div class="image position-relative">
+                <img
+                  src="../CravingsWebsite/images/restaurant3.avif"
+                  alt="image"
+                  class="w-100 border-0 rounded-top-3"
+                />
+                <span class="star position-absolute rounded-pill px-2">
+                  <i class="bi bi-star-fill"></i>
+                  3.6
+                </span>
+              </div>
+              <div class="description p-3 border-0">
+                <h6 class="fw-bolder">Under The Mango Tree</h6>
+                <p class="">
+                  Enjoy the thrill of grill and barbecue at Under The Mango Tree
+                  restaurant at Jehan Numa Palace, Bhopal. Head here now!
+                </p>
+                <div class="dishes">
+                  <span class="rounded py-1 px-2 mx-1">Indian</span>
+                  <span class="rounded py-1 px-2 mx-1">Chinese</span>
+                  <span class="rounded py-1 px-2 mx-1">Italian</span>
+                </div>
+                <hr class="bg-opacity-10" />
+                <a href="" class="btn w-100 py-2" id="explore">Explore more</a>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card border-0 rounded-3" id="order-now-all-card">
+              <div class="image position-relative">
+                <img
+                  src="../CravingsWebsite/images/BACKGROUND1.webp"
+                  alt="image"
+                  class="w-100 border-0 rounded-top-3"
+                />
+                <span class="star position-absolute rounded-pill px-2">
+                  <i class="bi bi-star-fill"></i>
+                  4.8
+                </span>
+              </div>
+              <div class="description p-3 border-0">
+                <h6 class="fw-bolder">Raj darbar</h6>
+                <p class="">
+                  Raj Darbar is a one-of-a-kind Indian restaurant that offers a
+                  unique dining experience for families and friends with a
+                  dhaba-style theme.
+                </p>
+                <div class="dishes">
+                  <span class="rounded py-1 px-2 mx-1">Indian</span>
+                  <span class="rounded py-1 px-2 mx-1">Chinese</span>
+                  <span class="rounded py-1 px-2 mx-1">Italian</span>
+                </div>
+                <hr class="bg-opacity-10" />
+                <a href="" class="btn w-100 py-2" id="explore">Explore more</a>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="card border-0 rounded-3" id="order-now-all-card">
+              <div class="image position-relative">
+                <img
+                  src="../CravingsWebsite/images/reataurant2.webp"
+                  alt="image"
+                  class="w-100 border-0 rounded-top-3"
+                />
+                <span class="star position-absolute rounded-pill px-2">
+                  <i class="bi bi-star-fill"></i>
+                  4.1
+                </span>
+              </div>
+              <div class="description p-3 border-0">
+                <h6 class="fw-bolder">Countryside Culture</h6>
+                <p class="">
+                  A hidden gem away from the city, offering lush green meadows
+                  and peaceful walking paths for relaxation.
+                </p>
+                <div class="dishes">
+                  <span class="rounded py-1 px-2 m-1">Indian</span>
+                  <span class="rounded py-1 px-2 m-1">Chinese</span>
+                </div>
+                <hr class="bg-opacity-10 my-4" />
+                <a href="" class="btn w-100 py-2" id="explore">Explore more</a>
+              </div>
+            </div>
+            <!-- Card 4 -->
+            <div class="card border-0 rounded-3" id="order-now-all-card">
+              <div class="image position-relative">
+                <img
+                  src="../CravingsWebsite/images/rajhans.jpg"
+                  alt="image"
+                  class="w-100 border-0 rounded-top-3"
+                />
+                <span class="star position-absolute rounded-pill px-2">
+                  <i class="bi bi-star-fill"></i>
+                  4.2
+                </span>
+              </div>
+              <div class="description p-3 border-0">
+                <h6 class="fw-bolder">Raj Hans</h6>
+                <p class="">
+                  Bhopal’s legendary food chain, famous for its boofe original cycle
+                  soup, cheesy sandwiches, and affordable vegetarian treats.
+                </p>
+                <div class="dishes">
+                  <span class="rounded py-1 px-2 mx-1">Indian</span>
+                  <span class="rounded py-1 px-2 mx-1">Chinese</span>
+                  <span class="rounded py-1 px-2 mx-1">Italian</span>
+                </div>
+                <hr class="bg-opacity-10" />
+                <a href="" class="btn w-100 py-2" id="explore">Explore more</a>
+              </div>
+            </div>
+            <!-- Card 5 -->
+            <div class="card border-0 rounded-3" id="order-now-all-card">
+              <div class="image position-relative">
+                <img
+                  src="../CravingsWebsite/images/GreenHose.jpg"
+                  alt="image"
+                  class="w-100 border-0 rounded-top-3"
+                />
+                <span class="star position-absolute rounded-pill px-2">
+                  <i class="bi bi-star-fill"></i>
+                  3.9
+                </span>
+              </div>
+              <div class="description p-3 border-0">
+                <h6 class="fw-bolder">Green House Bisto</h6>
+                <p class="">
+                  Bhopal’s popular vegetarian spot, famous for its affordable
+                  North Indian thalis, Dal Bafla, and family-friendly dining.
+                </p>
+                <div class="dishes">
+                  <span class="rounded py-1 px-2 mx-1">Indian</span>
+                  <span class="rounded py-1 px-2 mx-1">Chinese</span>
+                  <span class="rounded py-1 px-2 mx-1">Italian</span>
+                </div>
+                <hr class="bg-opacity-10" />
+                <a href="" class="btn w-100 py-2" id="explore">Explore more</a>
+              </div>
+            </div>
+            <!-- Card 6 -->
+            <div class="card border-0 rounded-3" id="order-now-all-card">
+              <div class="image position-relative">
+                <img
+                  src="../CravingsWebsite/images/windsAndwaves.jpg"
+                  alt="image"
+                  class="w-100 border-0 rounded-top-3"
+                />
+                <span class="star position-absolute rounded-pill px-2">
+                  <i class="bi bi-star-fill"></i>
+                  4.5
+                </span>
+              </div>
+              <div class="description p-3 border-0">
+                <h6 class="fw-bolder">Winds n Waves</h6>
+                <p class="">
+                  Winds n Wave is a popular Bhopal restaurant, famous for its iconic
+                  ramfuq dish and various affordable vegetarian meals.
+                </p>
+                <div class="dishes">
+                  <span class="rounded py-1 px-2 mx-1">Indian</span>
+                  <span class="rounded py-1 px-2 mx-1">Chinese</span>
+                  <span class="rounded py-1 px-2 mx-1">Italian</span>
+                </div>
+                <hr class="bg-opacity-10" />
+                <a href="" class="btn w-100 py-2" id="explore">Explore more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+      <footer>
+      <section class="footer-section pt-4 pb-3">
+        <div class="footer-div w-100 mt-2 pb-5">
+          <p class="text-center">
+            --- Your favorite food delivery platform connecting customers with
+            restaurants and riders. ---
+          </p>
+          <div class="footer-outer d-grid pt-4">
+            <div class="footer-logo me-5 d-flex">
+              <img src="../CravingsWebsite/images/cravings.png" alt="footerLogo" />
+            </div>
+
+            <div class="quick-links d-grid">
+              <h4 class="mb-1 fw-bold">Quick Links</h4>
+              <a href="./index.html">Home</a>
+              <a href="./about.html">About</a>
+              <a href="./order-now.html">Order Now</a>
+            </div>
+
+            <div class="quick-links d-grid">
+              <h4 class="mb-1 fw-bold">For Restaurants</h4>
+              <a href="">Partner With Us</a>
+              <a href="">Restaurant Dashboard</a>
+            </div>
+
+            <div class="quick-links d-grid">
+              <h4 class="mb-1 fw-bold">For Riders</h4>
+              <a href="./rider.html">Become a Rider</a>
+              <a href="">Rider Dashboard</a>
+            </div>
+
+            <div class="quick-links d-grid">
+              <h4 class="mb-1 fw-bold">Feedback & Support</h4>
+              <a href="./feedback.html">Submit Feedback</a>
+              <a href="./help-center.html">Help Center</a>
+              <a href="./contact.html">Contact Us</a>
+            </div>
+          </div>
+        </div>
+        <div class="border-bottom footer-division"></div>
+        <div class="copy-right pt-4 d-flex justify-content-between">
+          <div class="d-flex gap-2">
+            <i class="bi bi-c-circle"></i>
+            <p>2026 Cravings. All rights reserved.</p>
+          </div>
+          <div class="d-flex gap-4">
+            <a href="./privacy-policy.html">Privacy Policy</a>
+            <a href="./terms-of-service.html">Terms of Service</a>
+            <a href="./sitemap.html">Site Map</a>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
