@@ -426,6 +426,14 @@ footer {
 .login-div {
   left: 8%;
   top: 13%;
+
+
+/* .place{
+  ::placeholder{
+    color: var(--color-error);
+  }
+
+} */
 }
 
 .feedback-div{
