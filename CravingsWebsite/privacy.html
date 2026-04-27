@@ -57,17 +57,17 @@
     <main>
       <!-- Hero section -->
       <section>
-        <div class="about-hersection">
-          <div class="about-login-bg">
-            <img src="./images/commonBG.avif" alt="FoodTable" class="" />
+        <div class="about-hersection position-relative">
+          <div class="privacy-bg">
+            <img src="./images/commonBG.avif" alt="FoodTable" class="object-fit-cover" />
           </div>
           <!-- <div
             class="privacy-herocontent position-absolute d-grid w-50 justify-content-center text-center gap-2"
           > -->
           <div
-            class="about-herocontent position-absolute d-grid w-50 justify-content-center text-center gap-2"
+            class="about-herocontent position-absolute d-grid w-50 justify-content-center  text-center gap-2"
           >
-            <div class="about-value">
+            <div class="privacy-value  ">
               <span class="display-5"><i class="bi bi-shield-shaded"></i></span>
               <h1 class="display-5 text-white fw-bold">
                 Privacy <span>Policy</span>
@@ -80,9 +80,12 @@
           </div>
         </div>
       </section>
-      <section>
-<!-- 
-         <p class="text-center">
+      
+      <!-- text div  Part -->
+      <section id="secondDiv">
+        
+       <div class="pt-5 fs-6 gap-3">
+          <p class="text-center ">
         This Privacy Policy describes how <b>Cravings</b> ("we", "us", or "our")
         collects, uses, and shares information <br> about you when you use our
         website, mobile application, and related services. By using Cravings,
@@ -91,28 +94,9 @@
         
          
       </p>
+       </div>
 
-         <div
-                class="d-flex align-items-center privacy-input-field rounded px-3 py-2"
-              >
-                <i class="bi bi-database-fill fs-4 core-values"></i>
-
-                <span class="fs-6 ms-3 fw-semibold text-capitalize">
-                  Information We collect
-                </span>
-
-                <a
-                  class="btn border-0 ms-auto"
-                  data-bs-toggle="collapse"
-                  href="#collapseExample"
-                >
-                  <i class="bi bi-caret-down"></i>
-                </a>
-              </div> -->
-
-
-
-               <div class="container py-5 d-grid gap-2">
+        <div class="container py-5 d-grid gap-2">
           <!-- 1st -->
           <div class="d-flex justify-content-center">
             <!-- WRAPPER (controls width) -->
@@ -164,11 +148,258 @@
                 </div>
               </div>
             </div>
-          </div>z
-      </section>
-     
+          </div>
 
-      
+          <!-- 2nd -->
+          <div class="d-flex justify-content-center">
+            <!-- WRAPPER (controls width) -->
+            <div class="faq-box">
+              <!-- HEADER -->
+              <div
+                class="d-flex align-items-center privacy-input-field py-2 rounded-bottom-2 px-3"
+              >
+                <i class="bi bi-shield-shaded fs-4 core-values"></i>
+
+                <span class="fs-6 ms-3 fw-semibold text-capitalize">
+                  How we use your information</span
+                >
+
+                <a
+                  class="btn border-0 ms-auto"
+                  data-bs-toggle="collapse"
+                  href="#collapseExample1"
+                >
+                  <i class="bi bi-caret-down"></i>
+                </a>
+              </div>
+
+              <!-- COLLAPSE -->
+              <div class="collapse" id="collapseExample1">
+                <div class="card rounded-bottom-2 rounded-top-0 card-body">
+                  <ul>
+                    <li>
+                      To process and fulfill your food orders and coordinate
+                      delivery.
+                    </li>
+                    <li>
+                      To personalise your experience and recommend relevant
+                      restaurants.
+                    </li>
+                    <li>
+                      To communicate order updates, promotions, and service
+                      announcements.
+                    </li>
+                    <li>
+                      To improve our platform through analytics and performance
+                      monitoring.
+                    </li>
+                    <li>
+                      To comply with legal obligations and resolve disputes.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3rd -->
+          <div class="d-flex justify-content-center">
+            <!-- WRAPPER (controls width) -->
+            <div class="faq-box">
+              <!-- HEADER -->
+              <div
+                class="d-flex align-items-center privacy-input-field py-2 rounded px-3"
+              >
+                <i class="bi bi-person-check-fill fs-3 core-values"></i>
+
+                <span class="fs-6 ms-3 fw-semibold text-capitalize">
+                  Sharing your information
+                </span>
+
+                <a
+                  class="btn border-0 ms-auto"
+                  data-bs-toggle="collapse"
+                  href="#collapseExample2"
+                >
+                  <i class="bi bi-caret-down"></i>
+                </a>
+              </div>
+
+              <!-- COLLAPSE -->
+              <div class="collapse" id="collapseExample2">
+                <div class="card rounded-1 card-body">
+                  <ul>
+                    <li>With partner restaurants to fulfill your orders.</li>
+                    <li>With delivery riders to complete your delivery.</li>
+                    <li>
+                      With payment processors to handle transactions securely.
+                    </li>
+                    <li>
+                      With analytics providers (anonymized or aggregated data
+                      only).
+                    </li>
+                    <li>
+                      With law enforcement when required by applicable law.
+                    </li>
+                    <li>
+                      We never sell your personal data to third parties for
+                      marketing purposes.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4th -->
+          <div class="d-flex justify-content-center">
+            <!-- WRAPPER (controls width) -->
+            <div class="faq-box">
+              <!-- HEADER -->
+              <div
+                class="d-flex align-items-center privacy-input-field py-2 rounded px-3"
+              >
+                <i class="bi bi-cookie fs-3 core-values"></i>
+
+                <span class="fs-6 ms-3 fw-semibold">
+                  Information We collect
+                </span>
+
+                <a
+                  class="btn border-0 ms-auto"
+                  data-bs-toggle="collapse"
+                  href="#collapseExample3"
+                >
+                  <i class="bi bi-caret-down"></i>
+                </a>
+              </div>
+
+              <!-- COLLAPSE -->
+              <div class="collapse" id="collapseExample3">
+                <div class="card rounded-top-0 rounded-bottom-2 card-body">
+                  <ul>
+                    <li>
+                      We use essential cookies to keep you logged in and
+                      maintain session state.
+                    </li>
+                    <li>
+                      Analytics cookies help us understand how users navigate
+                      the platform.
+                    </li>
+                    <li>
+                      You can disable non-essential cookies in your browser
+                      settings at any time.
+                    </li>
+                    <li>
+                      We use third-party services (e.g. Google Analytics) that
+                      may set their own cookies.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5th -->
+          <div class="d-flex justify-content-center">
+            <!-- WRAPPER (controls width) -->
+            <div class="faq-box">
+              <!-- HEADER -->
+              <div
+                class="d-flex align-items-center privacy-input-field py-2 rounded px-3"
+              >
+                <i class="bi bi-database-fill fs-3 core-values"></i>
+
+                <span class="fs-6 ms-3 fw-semibold">Data Retention</span>
+
+                <a
+                  class="btn border-0 ms-auto"
+                  data-bs-toggle="collapse"
+                  href="#collapseExample4"
+                >
+                  <i class="bi bi-caret-down"></i>
+                </a>
+              </div>
+
+              <!-- COLLAPSE -->
+              <div class="collapse" id="collapseExample4">
+                <div class="card rounded-top-0 rounded-bottom-2 card-body">
+                  <ul>
+                    <li>
+                      We retain your account data for as long as your account is
+                      active.
+                    </li>
+                    <li>
+                      Order history is retained for up to 5 years for legal and
+                      financial compliance.
+                    </li>
+                    <li>
+                      You may request deletion of your account and associated
+                      data at any time.
+                    </li>
+                    <li>
+                      Some data may be retained in anonymized form for analytics
+                      even after deletion.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6th -->
+          <div class="d-flex justify-content-center">
+            <!-- WRAPPER (controls width) -->
+            <div class="faq-box">
+              <!-- HEADER -->
+              <div
+                class="d-flex align-items-center privacy-input-field py-2 rounded px-3"
+              >
+                <i class="bi bi-person-fill-lock fs-3 core-values"></i>
+
+                <span class="fs-6 ms-3 fw-semibold">Your Rights</span>
+
+                <a
+                  class="btn border-0 ms-auto"
+                  data-bs-toggle="collapse"
+                  href="#collapseExample5"
+                >
+                  <i class="bi bi-caret-down"></i>
+                </a>
+              </div>
+
+              <!-- COLLAPSE -->
+              <div class="collapse" id="collapseExample5">
+                <div class="card rounded-top-0 rounded-bottom-2 card-body">
+                  <ul>
+                    <li>
+                      Account information: name, email address, phone number,
+                      and password when you register.
+                    </li>
+                    <li>
+                      Profile data: delivery addresses, profile photos, and
+                      payment preferences.
+                    </li>
+                    <li>
+                      Order history: restaurants visited, items ordered, and
+                      transaction records.
+                    </li>
+                    <li>
+                      Device & usage data: IP address, browser type, pages
+                      visited, and timestamps.
+                    </li>
+                    <li>
+                      Location data: GPS coordinates when you place an order or
+                      browse nearby restaurants.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- rating section -->
 
       <section id="partner">
@@ -251,5 +482,13 @@
         </div>
       </section>
     </footer>
+
+
+
+     <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
