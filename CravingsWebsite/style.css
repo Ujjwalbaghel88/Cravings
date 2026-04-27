@@ -691,6 +691,7 @@ footer {
 .about-herocontent {
   top: 26%;
   left: 25%;
+
 }
 /* 
 .privacy-herosection {
@@ -715,21 +716,25 @@ footer {
   transform: translate(-50%, -50%);
   width: 60%;
 }
-   
+   */
 
-.privacy-herocontent {
+.about-herocontent {
+
+  
   .privacy-value {
+     
 
-      font-size: 16px !important;
-      font-weight: bold;
   }
 
-} */
+} 
+
+
+#secondDiv{
+  background-color: var(--color-base-200);
+}
+
 .about-herocontent{
-  img {
-    height: 80px;
-    width: 80px;
-  }
+
 
   span {
       color: var(--color-primary);
@@ -738,7 +743,25 @@ footer {
   p {
     font-size: 18px;
   }
+
 }
+
+.privacy-bg {
+ 
+
+
+   
+    img {
+        height: 45vh;
+        width: 100%;
+        
+      
+      
+       
+    }
+    
+}
+
 
 
 
@@ -764,7 +787,7 @@ li {
   margin-bottom: 10px;
 }
 .faq-box {
-  width: 60%;
+  width: 50%;
 }
 ul li::marker {
   color: var(--color-primary);
@@ -781,6 +804,7 @@ ul li::marker {
   left: 0;
   width: 100%;
   height: 100%;
+  
 
   z-index: 10; /* MOST IMPORTANT */
 }
@@ -801,3 +825,5 @@ ul li::marker {
   align-items: center;
   justify-content: center;
 }
+
+
