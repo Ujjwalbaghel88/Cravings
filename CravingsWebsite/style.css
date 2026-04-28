@@ -726,11 +726,14 @@ footer {
 .privacy-bg {
  
 
+  width: 100%;
+  height: 100%;
 
    
     img {
         height: 45vh;
         width: 100%;
+        
 
       
       
@@ -803,4 +806,12 @@ ul li::marker {
   justify-content: center;
 }
 
-
+#CenterDiv{
+  background-color: var(--color-base-200);
+  color: var(--color-primary);
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  padding-bottom:10px ;
+  margin-top: 5px;
+}
