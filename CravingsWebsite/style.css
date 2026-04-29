@@ -20,7 +20,6 @@
 }
 
 #header {
-  /* height: 64px; */
   background-color: var(--color-primary);
   position: sticky;
   top: 0;
@@ -30,8 +29,6 @@
     width: 100px;
     height: auto;
   }
-
-  
 
   #login:hover {
     border: 1px solid var(--color-primary-content);
@@ -85,11 +82,6 @@
     width: 60%;
   }
 }
-
-/* .menuSearch::placeholder {
-  color: var(--color-primary) !important;
-  opacity: 0.5;
-} */
 
 /* your Favourite food  */
 
@@ -233,16 +225,14 @@
   display: flex;
   justify-content: space-around;
   h4 {
-  
     font-weight: bolder;
     /* font-size: xx-large; */
     color: var(--color-primary);
   }
 }
 
-
-#CravingNumber{
-  background:var(--color-base-200);
+#CravingNumber {
+  background: var(--color-base-200);
 }
 /* Details Section */
 .details {
@@ -301,40 +291,35 @@
 
 /* Partner */
 
-
-#outerdiv{
+#outerdiv {
   background: var(--color-primary);
-  h4{
+  h4 {
     font-weight: bolder;
     font-size: xx-large;
   }
- #outerdiv,p{
-  color:var(--color-base-300);
- }
-
-  button,btn{
-  color:var(--color-primary);
-  background:var(--color-base-200);
-  font-weight: bold;
-  font-size:larger;
- }
- button:hover{
-  color: var(--color-pink);
- }
-  
-}
-
-#partner{
-  /* color: var(--color-primary); */
-  background: var(--color-primary);
-  .partner-div{
-    
-
-  color: var(--color-base-100);
+  #outerdiv,
+  p {
+    color: var(--color-base-300);
   }
 
+  button,
+  btn {
+    color: var(--color-primary);
+    background: var(--color-base-200);
+    font-weight: bold;
+    font-size: larger;
+  }
+  button:hover {
+    color: var(--color-pink);
+  }
+}
 
-
+#partner {
+  /* color: var(--color-primary); */
+  background: var(--color-primary);
+  .partner-div {
+    color: var(--color-base-100);
+  }
 }
 /* Footer section */
 .footer-section {
@@ -398,8 +383,6 @@ footer {
     height: 100vh;
     width: 100%;
   }
-
-  
 }
 
 .help-bg {
@@ -416,16 +399,14 @@ footer {
   }
 }
 
-
-
 .login-div {
   left: 8%;
   top: 13%;
 }
 
-.feedback-div{
+.feedback-div {
   right: 8%;
-  margin-top:20px;
+  margin-top: 20px;
   /* top: 25%; */
 }
 .help-center {
@@ -440,87 +421,84 @@ footer {
   -webkit-backdrop-filter: blur(8px);
   border-radius: 12px;
 
-  h2{
+  h2 {
     color: var(--color-primary);
-    font-weight:bold;
+    font-weight: bold;
   }
 }
 
-
-#mainouterdiv{
+#mainouterdiv {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-
 }
 
-#divclass{
+#divclass {
   display: grid;
   width: 90%;
- #accordion{
-  width: 100%;
-  padding: 3px 28px;
-  
-   .accordion-header{
-    background-color: var(--color-base-content);
-    color: var(--color-secondary);
-  }
- }
-  
+  #accordion {
+    width: 100%;
+    padding: 3px 28px;
 
-  h2{
+    .accordion-header {
+      /* background-color: var(--color-base-content); */
+      color: var(--color-secondary);
+    }
+  }
+  #accordion:hover .accordion-header {
+    background: rgb(165, 163, 163);
+  }
+
+  h2 {
     font-weight: bolder;
     font-size: larger;
-    
-    
   }
-  
 }
-#SupportTicket{
- 
+#SupportTicket {
   width: 100%;
- 
 
-  .support{
-     display: grid;
-      gap: 3px;
+  .support {
+    display: grid;
+    gap: 10px;
 
+    h2 {
+      font-weight: bolder;
+      font-size: larger;
+    }
 
-     
-  h2{
-    font-weight: bolder;
-    font-size: larger;
-    
-    
+    input,
+    textarea,
+    select {
+      padding: 8px 10px;
+
+      background-color: rgb(206, 201, 201);
+
+      border: none;
+
+      /* border-color: var(--color-error); */
+      border-radius: 8px;
+      width: 90%;
+    }
+
+    input:hover,
+    textarea:hover,
+    select:hover {
+      border: 1px solid var(--color-primary);
+      background-color: transparent;
+    }
+
+    button {
+      color: var(--color-base-100);
+      background: var(--color-primary);
+      border: none;
+      border-radius: 5px;
+      width: 50%;
+      height: 150%;
+    }
   }
-  
-  input,textarea,select{
-    padding: 10px 20px;
-    border: 3px solid  var(--color-error);
-   /* border-color: var(--color-error); */
-    border-radius: 8px;
-    width: 70%;
-    
-  }
-
-  button{
-    color: var(--color-base-100);
-    background: var(--color-primary);
-    border: none;
-    border-radius: 5px;
-    width: 50%;
-    height: 150%;
-  }
-  }
-  
-  
-
-
-
 }
 .login-div,
-
 .register-div,
 .feedback-div,
 .contact-div {
@@ -687,63 +665,40 @@ footer {
 
 /* ABOUT HERO */
 
-
 .about-herocontent {
   top: 26%;
   left: 25%;
-
 }
 
-
-.about-herocontent {
-
-  
+/* .about-herocontent {
   .privacy-value {
-     
-
   }
+} */
 
-} 
-
-
-#secondDiv{
+#secondDiv {
   background-color: var(--color-base-200);
 }
 
-.about-herocontent{
-
-
+.about-herocontent {
   span {
-      color: var(--color-primary);
-    }
+    color: var(--color-primary);
+  }
 
   p {
     font-size: 18px;
   }
-
 }
 
 .privacy-bg {
- 
-
   width: 100%;
   height: 100%;
+  background: black;
 
-   
-    img {
-        height: 45vh;
-        width: 100%;
-        
-
-      
-      
-       
-    }
-    
+  img {
+    height: 45vh;
+    width: 100%;
+  }
 }
-
-
-
 
 .about-rating {
   background-color: var(--color-neutral);
@@ -784,7 +739,6 @@ ul li::marker {
   left: 0;
   width: 100%;
   height: 100%;
-  
 
   z-index: 10; /* MOST IMPORTANT */
 }
@@ -795,23 +749,21 @@ ul li::marker {
   object-fit: cover;
 }
 
-
 .custom-line {
-
-  color:var(--color-primary);   /* line color */
-  opacity:1;   /* important: full dark */
+  color: var(--color-primary); /* line color */
+  opacity: 1; /* important: full dark */
   /* width: 5px;/ */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-#CenterDiv{
+#CenterDiv {
   background-color: var(--color-base-200);
   color: var(--color-primary);
   width: 100%;
   height: 100%;
   padding: 10px;
-  padding-bottom:10px ;
+  padding-bottom: 10px;
   margin-top: 5px;
 }
