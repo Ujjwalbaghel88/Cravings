@@ -15,25 +15,21 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body class="">
     <!-- Header  -->
 
     <div
       id="header"
-      class="d-flex  justify-content-between align-items-center  shadow-md"
+      class="d-flex justify-content-between align-items-center shadow-md"
     >
-     <img
-          src="./images/image1.png"
-          class="ms-3  flex-shrink-0"
-          alt=""
-      />
+      <img src="./images/image1.png" class="ms-3 flex-shrink-0" alt="" />
 
       <div class="d-flex align-items-center gap-2 mt-2 mt-sm-0">
         <a
           id="login"
-          class="btn  px-3 w-100 text-light w-sm-auto"
+          class="btn px-3 w-100 text-light w-sm-auto"
           href="./login.html"
         >
           Login
@@ -50,7 +46,7 @@
 
     <!-- Image Rotation Carousel -->
 
-    <div class="herosection position-relative ">
+    <div class="herosection position-relative">
       <!-- Carousel -->
       <div
         id="carouselExample"
@@ -118,272 +114,278 @@
 
       <!-- Overlay Content (FIXED) -->
 
-
-      
-
-
       <!-- Your Favourite Food Section Header niche -->
-     <section>
-       <div
-        class="hero-overlay position-absolute d-flex align-items-center justify-content-center text-center text-light"
-      >
-        <div class="container px-3">
-          <!-- <div class="text-center text-white d-grid gap-1 vw-100"> -->
-          <h1 class="fw-bolder  display-5 lh-1">
-            Your Favorite Food,<br />Delivered Fast
-          </h1>
+      <section>
+        <div
+          class="hero-overlay position-absolute d-flex align-items-center justify-content-center text-center text-light"
+        >
+          <div class="container px-3">
+            <!-- <div class="text-center text-white d-grid gap-1 vw-100"> -->
+            <h1 class="fw-bolder display-5 lh-1">
+              Your Favorite Food,<br />Delivered Fast
+            </h1>
 
-          <p class="fs-5 fs-md-4 mt-3">
-            Order from thousands of restaurants and get it delivered to your doorstep
-          </p>
+            <p class="fs-5 fs-md-4 mt-3">
+              Order from thousands of restaurants and get it delivered to your
+              doorstep
+            </p>
 
-          <!-- Buttons -->
-          <div
-           id="buttonHome" class="mt-5 text-decoration-none d-flex justify-content-center align-items-center gap-3 my-4  flex-wrap"
-          >
-            <a href="./register.html">
-              <button id="signup" class="btn text-light fw-bold p-4 py-2 rounded-3">
-                Sign Up
-              </button></a
+            <!-- Buttons -->
+            <div
+              id="buttonHome"
+              class="mt-5 text-decoration-none d-flex justify-content-center align-items-center gap-3 my-4 flex-wrap"
             >
-            <a href="./order.html"
-              ><button id="orderNow" class="text-dark fw-bold p-4 py-2 rounded-3">
-                Order Now
-              </button></a
+              <a href="./register.html">
+                <button
+                  id="signup"
+                  class="btn text-light fw-bold p-4 py-2 rounded-3"
+                >
+                  Sign Up
+                </button></a
+              >
+              <a href="./order.html"
+                ><button
+                  id="orderNow"
+                  class="text-dark fw-bold p-4 py-2 rounded-3"
+                >
+                  Order Now
+                </button></a
+              >
+            </div>
+            <!-- Search -->
+            <div
+              id="bg-white"
+              class="bg-white w-50 pt-2 pb-2 rounded-3 d-flex align-items-center px-3 py-1 mx-auto"
             >
-          </div>
-          <!-- Search -->
-          <div
-          id="bg-white"
-            class="bg-white w-50 pt-2 pb-2
-             rounded-3 d-flex align-items-center  px-3 py-1 mx-auto "
-             
-          >
-            <i class="bi bi-search text-muted  me-2"></i>
-            <input
-              id="text"
-              class=" border-0  shadow-none fs-6 fw-medium "
-              placeholder="Search restaurants or dishes...."
-            />
-          </div>
-        </div>
-      </div>
-     </section>
-    </div>
-
-    <!-- Restaurants Section  -->
-  
-  
-
-
-    
-      <!-- card Section -->
-      <section
-        class="py-5 justify-content-center"
-        id="restaurant-card"
-      >
-        <div class="restaurant-div justify-content-center ">
-          <h2 class="card-heading fw-bolder">Featured Restaurants</h2>
-          <p class="restaurant-available">4 restaurants available</p>
-          <div class="card-outer row g-0  d-flex align-items-center justify-content-center  mt-4">
-            <!-- Card 1 -->
-            <div class="card border-0 shadow-sm rounded-3  col-12 col-md-6 col-lg-3 " >
-              <div class="image position-relative">
-                <img
-                  src="./images/taj-lakefront-bhopal.jpg"
-                  alt="image"
-                  class="w-100 border-0 rounded-top-3"
-                />
-                <span class="star position-absolute rounded-pill px-2">
-                  <i class="bi bi-star-fill"></i>
-                  5.0
-                </span>
-              </div>
-              <div class="description p-3 border-0">
-                <h6 class="fw-bolder">The Taj</h6>
-                <p class="">
-                  A hidden gem away from the city, offering lush green meadows
-                  and peaceful walking paths for relaxation.
-                </p>
-                <div class="dishes">
-                  <span class="rounded py-1 px-2 mx-1">Indian</span>
-                  <span class="rounded py-1 px-2 mx-1">Chinese</span>
-                </div>
-                <hr class="bg-opacity-10" />
-                <a href="" class="btn w-100 py-2" id="explore">Explore more</a>
-              </div>
+              <i class="bi bi-search text-muted me-2"></i>
+              <input
+                type="text"
+                id="text"
+                class="border-0 shadow-none fs-6 fw-medium"
+                placeholder="Search restaurants or dishes...."
+              />
             </div>
-            <!-- Card 2 -->
-            <div class="card border-0 shadow-sm rounded-3 col-12 col-md-6 col-lg-3" id="all-cards">
-
-
-
-               <div class="image position-relative">
-                <img
-                  src="./images/BACKGROUND1.webp"
-                  alt="image"
-                  class="w-100 border-0 rounded-top-3"
-                />
-                <span class="star position-absolute rounded-pill px-2">
-                  <i class="bi bi-star-fill"></i>
-                  3.6
-                </span>
-              </div>
-              <div class="description p-3 border-0">
-                <h6 class="fw-bolder">Raj Darbar<h6>
-                <p class="">
-                  Enjoy the thrill of grill and barbecue at Under The Mango Tree
-                  restaurant at Jehan Numa Palace, Bhopal. Head here now!
-                </p>
-                <div class="dishes">
-                  <span class="rounded py-1 px-2 mx-1">Indian</span>
-                  <span class="rounded py-1 px-2 mx-1">Chinese</span>
-                  <span class="rounded py-1 px-2 mx-1">Italian</span>
-                </div>
-                <hr class="bg-opacity-10" />
-                <a href="" class="btn w-100 py-2" id="explore">Explore more</a>
-              </div>
-              
-            </div>
-            <!-- Card 3 -->
-            <div class="card border-0 shadow-sm rounded-3 col-12 col-md-6 col-lg-3" id="all-cards">
-             <div class="image position-relative">
-                <img
-                  src="./images/reataurant2.webp"
-                  alt="image"
-                  class="w-100 border-0 rounded-top-3"
-                />
-                <span class="star position-absolute rounded-pill px-2">
-                  <i class="bi bi-star-fill"></i>
-                  4.8
-                </span>
-              </div>
-              <div class="description p-3 border-0">
-                <h6 class="fw-bolder">CountySide Culture</h6>
-                <p class="">
-                  Raj Darbar is a one-of-a-kind Indian restaurant that offers a
-                  unique dining experience for families and friends with a
-                  dhaba-style theme.
-                </p>
-                <div class="dishes">
-                  <span class="rounded py-1 px-2 mx-1">Indian</span>
-                  <span class="rounded py-1 px-2 mx-1">Chinese</span>
-                  <span class="rounded py-1 px-2 mx-1">Italian</span>
-                </div>
-                <hr class="bg-opacity-10" />
-                <a href="" class="btn w-100 py-2" id="explore">Explore more</a>
-              </div>
-            </div>
-            <!-- Card 4 -->
-            <div class="card border-0 shadow-sm rounded-3 col-12 col-md-6 col-lg-3" id="all-cards">
-              <div class="image position-relative">
-                <img
-                  src="./images/restaurant3.avif"
-                  alt="image"
-                  class="w-100 border-0 rounded-top-3"
-                />
-                <span class="star position-absolute rounded-pill px-2">
-                  <i class="bi bi-star-fill"></i>
-                  4.2
-                </span>
-              </div>
-              <div class="description p-3 border-0">
-                <h6 class="fw-bolder">Under The Mango Tree</h6>
-                <p class="">
-                 mago tree  is a popular Bhopal restaurant, famous for its iconic
-                  Chur Chur Naan and various affordable vegetarian meals.
-                </p>
-                <div class="dishes">
-                  <span class="rounded py-1 px-2 mx-1">Indian</span>
-                  <span class="rounded py-1 px-2 mx-1">Chinese</span>
-                  <span class="rounded py-1 px-2 mx-1">Italian</span>
-                </div>
-                <hr class="bg-opacity-10" />
-                <a href="" class="btn w-100 py-2" id="explore">Explore more</a>
-              </div>
-            </div>
-
-            <!-- card5  -->
-            <div class="card border-0 shadow-sm rounded-3 col-12 col-md-6 col-lg-3" id="all-cards">
-              <div class="image position-relative">
-                <img
-                  src="./images/GreenHose.jpg"
-                  alt="image"
-                  class="w-100 border-0 rounded-top-3"
-                />
-                <span class="star position-absolute rounded-pill px-2">
-                  <i class="bi bi-star-fill"></i>
-                  4.2
-                </span>
-              </div>
-              <div class="description p-3 border-0">
-                <h6 class="fw-bolder">Green House</h6>
-                <p class="">
-                  Green House Resto is a popular Bhopal restaurant, famous for its iconic
-                  roofi and qurr and various affordable  meals.
-                </p>
-                <div class="dishes">
-                  <span class="rounded py-1 px-2 mx-1">Indian</span>
-                  <span class="rounded py-1 px-2 mx-1">Chinese</span>
-                  <span class="rounded py-1 px-2 mx-1">Italian</span>
-                </div>
-                <hr class="bg-opacity-10" />
-                <a href="" class="btn w-100 py-2" id="explore">Explore more</a>
-              </div>
-            </div>
-
-            <!-- card6 -->
-            <div class="card border-0 shadow-sm rounded-3 col-12 col-md-6 col-lg-3" id="all-cards">
-              <div class="image position-relative">
-                <img
-                  src="./images/rajhans.jpg"
-                  alt="image"
-                  class="w-100 border-0 rounded-top-3"
-                />
-                <span class="star position-absolute rounded-pill px-2">
-                  <i class="bi bi-star-fill"></i>
-                  4.2
-                </span>
-              </div>
-              <div class="description p-3 border-0">
-                <h6 class="fw-bolder">Raj Hans</h6>
-                <p class="">
-                Hotel Rajhans in Bhopal is primarily famous for its unlimited, affordable vegetarian Punjabi and South Indian thalis 
-                </p>
-                <div class="dishes">
-                  <span class="rounded py-1 px-2 mx-1">Indian</span>
-                  <span class="rounded py-1 px-2 mx-1">Chinese</span>
-                  <span class="rounded py-1 px-2 mx-1">Italian</span>
-                
-                </div>
-                <hr class="bg-opacity-10" />
-                <a href="" class="btn w-100 py-2" id="explore">Explore more</a>
-              </div>
-            </div>
-           
-            
-
           </div>
         </div>
       </section>
+    </div>
 
+    <!-- Restaurants Section  -->
 
+    <!-- card Section -->
+    <section class="py-5 justify-content-center" id="restaurant-card">
+      <div class="restaurant-div justify-content-center">
+        <h2 class="card-heading fw-bolder">Featured Restaurants</h2>
+        <p class="restaurant-available">4 restaurants available</p>
+        <div
+          class="card-outer row g-0 d-flex align-items-center justify-content-center mt-4"
+        >
+          <!-- Card 1 -->
+          <div
+            class="card border-0 shadow-sm rounded-3 col-12 col-md-6 col-lg-3"
+          >
+            <div class="image position-relative">
+              <img
+                src="./images/taj-lakefront-bhopal.jpg"
+                alt="image"
+                class="w-100 border-0 rounded-top-3"
+              />
+              <span class="star position-absolute rounded-pill px-2">
+                <i class="bi bi-star-fill"></i>
+                5.0
+              </span>
+            </div>
+            <div class="description p-3 border-0">
+              <h6 class="fw-bolder">The Taj</h6>
+              <p class="">
+                A hidden gem away from the city, offering lush green meadows and
+                peaceful walking paths for relaxation.
+              </p>
+              <div class="dishes">
+                <span class="rounded py-1 px-2 mx-1">Indian</span>
+                <span class="rounded py-1 px-2 mx-1">Chinese</span>
+              </div>
+              <hr class="bg-opacity-10" />
+              <a href="" class="btn w-100 py-2" id="explore">Explore more</a>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div
+            class="card border-0 shadow-sm rounded-3 col-12 col-md-6 col-lg-3"
+            id="all-cards"
+          >
+            <div class="image position-relative">
+              <img
+                src="./images/BACKGROUND1.webp"
+                alt="image"
+                class="w-100 border-0 rounded-top-3"
+              />
+              <span class="star position-absolute rounded-pill px-2">
+                <i class="bi bi-star-fill"></i>
+                3.6
+              </span>
+            </div>
+            <div class="description p-3 border-0">
+              <h6 class="fw-bolder">Raj Darbar</h6>
+              <p class="">
+                Enjoy the thrill of grill and barbecue at Under The Mango Tree
+                restaurant at Jehan Numa Palace, Bhopal. Head here now!
+              </p>
+              <div class="dishes">
+                <span class="rounded py-1 px-2 mx-1">Indian</span>
+                <span class="rounded py-1 px-2 mx-1">Chinese</span>
+                <span class="rounded py-1 px-2 mx-1">Italian</span>
+              </div>
+              <hr class="bg-opacity-10" />
+              <a href="" class="btn w-100 py-2" id="explore">Explore more</a>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div
+            class="card border-0 shadow-sm rounded-3 col-12 col-md-6 col-lg-3"
+            id="all-cards"
+          >
+            <div class="image position-relative">
+              <img
+                src="./images/reataurant2.webp"
+                alt="image"
+                class="w-100 border-0 rounded-top-3"
+              />
+              <span class="star position-absolute rounded-pill px-2">
+                <i class="bi bi-star-fill"></i>
+                4.8
+              </span>
+            </div>
+            <div class="description p-3 border-0">
+              <h6 class="fw-bolder">CountySide Culture</h6>
+              <p class="">
+                Raj Darbar is a one-of-a-kind Indian restaurant that offers a
+                unique dining experience for families and friends with a
+                dhaba-style theme.
+              </p>
+              <div class="dishes">
+                <span class="rounded py-1 px-2 mx-1">Indian</span>
+                <span class="rounded py-1 px-2 mx-1">Chinese</span>
+                <span class="rounded py-1 px-2 mx-1">Italian</span>
+              </div>
+              <hr class="bg-opacity-10" />
+              <a href="" class="btn w-100 py-2" id="explore">Explore more</a>
+            </div>
+          </div>
+          <!-- Card 4 -->
+          <div
+            class="card border-0 shadow-sm rounded-3 col-12 col-md-6 col-lg-3"
+            id="all-cards"
+          >
+            <div class="image position-relative">
+              <img
+                src="./images/restaurant3.avif"
+                alt="image"
+                class="w-100 border-0 rounded-top-3"
+              />
+              <span class="star position-absolute rounded-pill px-2">
+                <i class="bi bi-star-fill"></i>
+                4.2
+              </span>
+            </div>
+            <div class="description p-3 border-0">
+              <h6 class="fw-bolder">Under The Mango Tree</h6>
+              <p class="">
+                mago tree is a popular Bhopal restaurant, famous for its iconic
+                Chur Chur Naan and various affordable vegetarian meals.
+              </p>
+              <div class="dishes">
+                <span class="rounded py-1 px-2 mx-1">Indian</span>
+                <span class="rounded py-1 px-2 mx-1">Chinese</span>
+                <span class="rounded py-1 px-2 mx-1">Italian</span>
+              </div>
+              <hr class="bg-opacity-10" />
+              <a href="" class="btn w-100 py-2" id="explore">Explore more</a>
+            </div>
+          </div>
 
-      <!-- Craving by the Numbers -->
+          <!-- card5  -->
+          <div
+            class="card border-0 shadow-sm rounded-3 col-12 col-md-6 col-lg-3"
+            id="all-cards"
+          >
+            <div class="image position-relative">
+              <img
+                src="./images/GreenHose.jpg"
+                alt="image"
+                class="w-100 border-0 rounded-top-3"
+              />
+              <span class="star position-absolute rounded-pill px-2">
+                <i class="bi bi-star-fill"></i>
+                4.2
+              </span>
+            </div>
+            <div class="description p-3 border-0">
+              <h6 class="fw-bolder">Green House</h6>
+              <p class="">
+                Green House Resto is a popular Bhopal restaurant, famous for its
+                iconic roofi and qurr and various affordable meals.
+              </p>
+              <div class="dishes">
+                <span class="rounded py-1 px-2 mx-1">Indian</span>
+                <span class="rounded py-1 px-2 mx-1">Chinese</span>
+                <span class="rounded py-1 px-2 mx-1">Italian</span>
+              </div>
+              <hr class="bg-opacity-10" />
+              <a href="" class="btn w-100 py-2" id="explore">Explore more</a>
+            </div>
+          </div>
 
-    <section id="CravingNumber" class="py-5  text-center">
+          <!-- card6 -->
+          <div
+            class="card border-0 shadow-sm rounded-3 col-12 col-md-6 col-lg-3"
+            id="all-cards"
+          >
+            <div class="image position-relative">
+              <img
+                src="./images/rajhans.jpg"
+                alt="image"
+                class="w-100 border-0 rounded-top-3"
+              />
+              <span class="star position-absolute rounded-pill px-2">
+                <i class="bi bi-star-fill"></i>
+                4.2
+              </span>
+            </div>
+            <div class="description p-3 border-0">
+              <h6 class="fw-bolder">Raj Hans</h6>
+              <p class="">
+                Hotel Rajhans in Bhopal is primarily famous for its unlimited,
+                affordable vegetarian Punjabi and South Indian thalis
+              </p>
+              <div class="dishes">
+                <span class="rounded py-1 px-2 mx-1">Indian</span>
+                <span class="rounded py-1 px-2 mx-1">Chinese</span>
+                <span class="rounded py-1 px-2 mx-1">Italian</span>
+              </div>
+              <hr class="bg-opacity-10" />
+              <a href="" class="btn w-100 py-2" id="explore">Explore more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Craving by the Numbers -->
+
+    <section id="CravingNumber" class="py-5 text-center">
       <h4 class="fw-bolder display-5">Cravings by the Numbers</h4>
-      <p class="fs-5">See why millions trust us for their daily food delivery needs</p>
+      <p class="fs-5">
+        See why millions trust us for their daily food delivery needs
+      </p>
 
       <!-- <div class="container mt-4"> -->
-        <div class="box-outer  align mt-5">
-
-        <div class="row g-3 ">
+      <div class="box-outer align mt-5">
+        <div class="row g-3">
           <div class="col-md-6">
             <div class="p-4 bg-white shadow rounded">
               <h4 class="display-3">2.5M+</h4>
 
-              
               <p>Successful Deliveries</p>
             </div>
           </div>
@@ -412,110 +414,107 @@
       </div>
     </section>
 
-
-
-     <!-- Customer review -->
-      <section class="py-5">
-        <h2 class="text-center fw-bold text-black">What Our Customers Say</h2>
-        <p class="feedback text-center">Real feedback from real food lovers</p>
-        <div class="container px-5">
-          <div class="row">
-            <div class="col-12 col-md-6 col-lg-4 p-3">
-              <div class="rating-card d-grid gap-2 rounded-2 p-4 shadow">
-                <div class="d-flex gap-2 mb-2">
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
+    <!-- Customer review -->
+    <section class="py-5">
+      <h2 class="text-center fw-bold text-black">What Our Customers Say</h2>
+      <p class="feedback text-center">Real feedback from real food lovers</p>
+      <div class="container px-5">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 p-3">
+            <div class="rating-card d-grid gap-2 rounded-2 p-4 shadow">
+              <div class="d-flex gap-2 mb-2">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <h3 class="fs-5">Amazing Service!</h3>
+              <p>
+                "The food arrived hot and fresh. The delivery was incredibly
+                fast. Highly impressed with Cravings' service!"
+              </p>
+              <div class="review-detail d-flex gap-3">
+                <div class="review-name-logo rounded-circle p-3">
+                  <b>AJ</b>
                 </div>
-                <h3 class="fs-5">Amazing Service!</h3>
-                <p>
-                  "The food arrived hot and fresh. The delivery was incredibly
-                  fast. Highly impressed with Cravings' service!"
-                </p>
-                <div class="review-detail d-flex gap-3">
-                  <div class="review-name-logo rounded-circle p-3">
-                    <b>AJ</b>
-                  </div>
-                  <div class="review-name d-grid">
-                    <span class="fw-bold">Arjun J.</span>
-                    <span>Verified Buyer</span>
-                  </div>
+                <div class="review-name d-grid">
+                  <span class="fw-bold">Arjun J.</span>
+                  <span>Verified Buyer</span>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 p-3">
-              <div class="rating-card d-grid gap-2 rounded-2 p-4 shadow">
-                <div class="d-flex gap-2 mb-2">
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-3">
+            <div class="rating-card d-grid gap-2 rounded-2 p-4 shadow">
+              <div class="d-flex gap-2 mb-2">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <h3 class="fs-5">Best App Ever!</h3>
+              <p>
+                "Easy to use interface, wide variety of restaurants, and quick
+                delivery. I order from Cravings every week!"
+              </p>
+              <div class="review-detail d-flex gap-3">
+                <div class="review-name-logo1 rounded-circle p-3">
+                  <b>SP</b>
                 </div>
-                <h3 class="fs-5">Best App Ever!</h3>
-                <p>
-                  "Easy to use interface, wide variety of restaurants, and quick
-                  delivery. I order from Cravings every week!"
-                </p>
-                <div class="review-detail d-flex gap-3">
-                  <div class="review-name-logo1 rounded-circle p-3">
-                    <b>SP</b>
-                  </div>
-                  <div class="review-name d-grid">
-                    <span class="fw-bold">Sneha P.</span>
-                    <span>Verified Buyer</span>
-                  </div>
+                <div class="review-name d-grid">
+                  <span class="fw-bold">Sneha P.</span>
+                  <span>Verified Buyer</span>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-4 p-3">
-              <div class="rating-card d-grid gap-2 rounded-2 p-4 shadow">
-                <div class="d-flex gap-2 mb-2">
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
-                  <i class="bi bi-star-fill text-warning"></i>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 p-3">
+            <div class="rating-card d-grid gap-2 rounded-2 p-4 shadow">
+              <div class="d-flex gap-2 mb-2">
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+                <i class="bi bi-star-fill text-warning"></i>
+              </div>
+              <h3 class="fs-5">Excellent Choices</h3>
+              <p>
+                "Love the variety of restaurants available. Found my new
+                favorite spot through Cravings. Definitely worth it!"
+              </p>
+              <div class="review-detail d-flex gap-3">
+                <div class="review-name-logo rounded-circle p-3">
+                  <b>RK</b>
                 </div>
-                <h3 class="fs-5">Excellent Choices</h3>
-                <p>
-                  "Love the variety of restaurants available. Found my new
-                  favorite spot through Cravings. Definitely worth it!"
-                </p>
-                <div class="review-detail d-flex gap-3">
-                  <div class="review-name-logo rounded-circle p-3">
-                    <b>RK</b>
-                  </div>
-                  <div class="review-name d-grid">
-                    <span class="fw-bold">Raj Kumar</span>
-                    <span>Verified Buyer</span>
-                  </div>
+                <div class="review-name d-grid">
+                  <span class="fw-bold">Raj Kumar</span>
+                  <span>Verified Buyer</span>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-
+      </div>
+    </section>
 
     <!-- Become a Restaurant Partner -->
-    <section id="outerdiv" class=" text-center text-white py-5 ">
+    <section id="outerdiv" class="text-center text-white py-5">
       <h4><b>Become a Restaurant Partner</b></h4>
-      <p class="text-center  mb-5">
+      <p class="text-center mb-5">
         Grow your business with Cravings. Join thousands of restaurants already
         delivering with us.
       </p>
-     
-        
-      <a href="./partner.html"   id="" class=" btn text-danger  btn-light mt-2">Partner with Us</a>
-      <!-- <button id="partner" class=" btn btn-light mt-2">Partner With Us</button> -->
 
+      <a href="./partner.html" id="" class="btn text-danger btn-light mt-2"
+        >Partner with Us</a
+      >
+      <!-- <button id="partner" class=" btn btn-light mt-2">Partner With Us</button> -->
     </section>
 
     <!-- Footer part -->
-     <footer>
+    <footer>
       <section class="footer-section pt-4 pb-3">
         <div class="footer-div w-100 mt-2 pb-5">
           <p class="text-center">
