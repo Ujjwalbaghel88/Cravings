@@ -92,22 +92,29 @@ body {
   #signup {
     border: none;
     background-color: var(--color-primary);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   #orderNow {
     border: none;
     background-color: var(--color-base-100);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 }
 
 /* searchbar */
+#text::placeholder {
+  color: rgba(248, 113, 113, 0.7);
+
+}
 
 #search-box {
-  max-width: 500px;
-  width: 60%;
-  border: 1px solid black;
+  max-width: 850px;
+  width: 100%;
+  /* border: 2px solid green; */
 
-  #text::placeholder {
-    color: rgba(248, 113, 113, 0.7);
+  input{
+  width: 100%;
+  padding: 2px;
   }
 }
 
@@ -213,7 +220,7 @@ body {
   }
 
   #all-cards:hover {
-    transform: scale(1.02);
+    transform: scale(1.05);
   }
 
   #explore {
@@ -236,23 +243,22 @@ body {
   background: var(--color-base-200);
 
   .box-outer {
+    /* border: 2px solid  green; */
     display: flex;
     justify-content: space-around;
-    padding: 30px;
     width: 100%;
-  
     h4 {
       font-weight: bolder;
       /* font-size: xx-large; */
       color: var(--color-primary);
     }
-.row{
 
-   padding: 30px;
-  gap: 30px;
-  
+    .row {
+      /* border: 2px solid black; */
+      padding: 20px;
+    }
+  }
 }
-
 
 /* Details Section */
 .details {
@@ -762,8 +768,8 @@ ul li::marker {
 
   z-index: 10; /* MOST IMPORTANT */
 
-  h1 {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
   }
 }
