@@ -19,7 +19,6 @@
   font-family: "Inter";
 }
 
-
 body {
   overflow-x: hidden;
 }
@@ -101,13 +100,15 @@ body {
 }
 
 /* searchbar */
-#text::placeholder {
-  color: rgba(248, 113, 113, 0.7);
-}
 
 #search-box {
   max-width: 500px;
-  width: 100%;
+  width: 60%;
+  border: 1px solid black;
+
+  #text::placeholder {
+    color: rgba(248, 113, 113, 0.7);
+  }
 }
 
 /* Featured Restaurants */
@@ -212,7 +213,7 @@ body {
   }
 
   #all-cards:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
   }
 
   #explore {
@@ -231,19 +232,28 @@ body {
 
 /* Craving by the Numbers */
 
-.box-outer {
-  display: flex;
-  justify-content: space-around;
-  h4 {
-    font-weight: bolder;
-    /* font-size: xx-large; */
-    color: var(--color-primary);
-  }
-}
-
 #CravingNumber {
   background: var(--color-base-200);
+
+  .box-outer {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    width: 100%;
+  
+    h4 {
+      font-weight: bolder;
+      /* font-size: xx-large; */
+      color: var(--color-primary);
+    }
+.row{
+
+   padding: 30px;
+  gap: 30px;
+  
 }
+
+
 /* Details Section */
 .details {
   background-color: var(--color-base-100);
@@ -751,12 +761,17 @@ ul li::marker {
   height: 100%;
 
   z-index: 10; /* MOST IMPORTANT */
+
+  h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 50px;
+  }
 }
 
 /* Carousel image fix */
 .hero-img {
   height: 100vh;
-    width: 100%;
+  width: 100%;
   object-fit: cover;
 }
 
