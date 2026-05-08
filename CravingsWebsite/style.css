@@ -139,6 +139,10 @@ body {
     margin: 0 2%;
   }
 
+  .headingName{
+    margin-left: 150px;
+    padding: 10px;
+  }
   .card-heading {
     color: var(--color-primary-content);
   }
@@ -146,10 +150,11 @@ body {
   .restaurant-available {
     color: var(--color-base-200);
     opacity: 0.8;
+    font-size: 20px;
   }
 
   p {
-    font-size: 14px;
+    font-size: 20x;
     color: var(--color-base-content);
   }
 
