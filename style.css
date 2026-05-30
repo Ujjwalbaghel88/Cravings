@@ -819,7 +819,7 @@ ul li::marker {
 }
 /* Responsive For login,register, feedback, contact */
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .login-div,
   .register-div,
   .feedback-div,
@@ -848,10 +848,10 @@ ul li::marker {
     flex-direction: column;
     gap: 20px;
   }
-} */
+}
 
 /* Responsive for home page section id 33 */
-/* 
+
 @media (max-width: 576px) {
   .hero-overlay h1 {
     font-size: 32px !important;
@@ -890,4 +890,4 @@ ul li::marker {
     margin-left: 0 !important;
     margin-right: 0 !important;
   }
-} */
+}
