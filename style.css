@@ -247,7 +247,7 @@ body {
 #CravingNumber {
   background: var(--color-base-200);
 
-  .box-outer {
+  .box {
     /* border: 2px solid  green; */
     display: flex;
     justify-content: space-around;
