@@ -92,19 +92,18 @@ body {
   #signup {
     border: none;
     background-color: var(--color-primary);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
   #orderNow {
     border: none;
     background-color: var(--color-base-100);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   }
 }
 
 /* searchbar */
 #text::placeholder {
   color: rgba(248, 113, 113, 0.7);
-
 }
 
 #search-box {
@@ -112,9 +111,9 @@ body {
   width: 100%;
   /* border: 2px solid green; */
 
-  input{
-  width: 100%;
-  padding: 2px;
+  input {
+    width: 100%;
+    padding: 2px;
   }
 }
 
@@ -139,8 +138,9 @@ body {
     margin: 0 2%;
   }
 
-  .headingName{
-    margin-left: 150px;
+  .headingName {
+    /* margin-left: 150px; */
+    margin-left: 0;
     padding: 10px;
   }
   .card-heading {
@@ -154,7 +154,7 @@ body {
   }
 
   p {
-    font-size: 20x;
+    font-size: 20px;
     color: var(--color-base-content);
   }
 
@@ -773,8 +773,8 @@ ul li::marker {
 
   z-index: 10; /* MOST IMPORTANT */
 
-  h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  h1 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 50px;
   }
 }
@@ -804,3 +804,90 @@ ul li::marker {
   padding-bottom: 10px;
   margin-top: 5px;
 }
+
+/* Responsive for header */
+@media (max-width: 300px) {
+  #header {
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+  }
+
+  #header img {
+    width: 80px;
+  }
+}
+/* Responsive For login,register, feedback, contact */
+
+/* @media (max-width: 768px) {
+  .login-div,
+  .register-div,
+  .feedback-div,
+  .contact-div {
+    width: 90%;
+    left: 5% !important;
+    right: 5% !important;
+  }
+
+  .faq-box {
+    width: 100%;
+  }
+
+  .help-center {
+    width: 95%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .about-herocontent {
+    left: 5%;
+    width: 90%;
+  }
+
+  #mainouterdiv {
+    flex-direction: column;
+    gap: 20px;
+  }
+} */
+
+/* Responsive for home page section id 33 */
+/* 
+@media (max-width: 576px) {
+  .hero-overlay h1 {
+    font-size: 32px !important;
+  }
+
+  .herocontent {
+    width: 95%;
+    left: 10px !important;
+    right: 10px !important;
+    top: 15%;
+  }
+
+  .herocontent .search,
+  #search-box {
+    width: 100% !important;
+    max-width: 100%;
+  }
+
+  .headingName {
+    margin-left: 0 !important;
+    text-align: center;
+  }
+
+  #CravingNumber .box-outer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .restaurant-available {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #CravingNumber .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+} */
